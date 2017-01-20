@@ -15,6 +15,20 @@
 		18B688051E31F8430090579B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B688031E31F8430090579B /* LaunchScreen.storyboard */; };
 		18B688101E31F8430090579B /* JKXMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6880F1E31F8430090579B /* JKXMLParserTests.m */; };
 		18B6881B1E31F8430090579B /* JKXMLParserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6881A1E31F8430090579B /* JKXMLParserUITests.m */; };
+		18B688461E31F8880090579B /* area_data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 18B688291E31F8880090579B /* area_data.xml */; };
+		18B688471E31F8880090579B /* JKAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6882B1E31F8880090579B /* JKAddressList.m */; };
+		18B688481E31F8880090579B /* JKAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6882D1E31F8880090579B /* JKAddressPickerView.m */; };
+		18B688491E31F8880090579B /* JKAnalyzingXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6882F1E31F8880090579B /* JKAnalyzingXml.m */; };
+		18B6884A1E31F8880090579B /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688331E31F8880090579B /* MJExtensionConst.m */; };
+		18B6884B1E31F8880090579B /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688351E31F8880090579B /* MJFoundation.m */; };
+		18B6884C1E31F8880090579B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688371E31F8880090579B /* MJProperty.m */; };
+		18B6884D1E31F8880090579B /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688391E31F8880090579B /* MJPropertyKey.m */; };
+		18B6884E1E31F8880090579B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6883B1E31F8880090579B /* MJPropertyType.m */; };
+		18B6884F1E31F8880090579B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6883D1E31F8880090579B /* NSObject+MJClass.m */; };
+		18B688501E31F8880090579B /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B6883F1E31F8880090579B /* NSObject+MJCoding.m */; };
+		18B688511E31F8880090579B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688411E31F8880090579B /* NSObject+MJKeyValue.m */; };
+		18B688521E31F8880090579B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688431E31F8880090579B /* NSObject+MJProperty.m */; };
+		18B688531E31F8880090579B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688451E31F8880090579B /* NSString+MJExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,34 @@
 		18B688161E31F8430090579B /* JKXMLParserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKXMLParserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6881A1E31F8430090579B /* JKXMLParserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKXMLParserUITests.m; sourceTree = "<group>"; };
 		18B6881C1E31F8430090579B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18B688291E31F8880090579B /* area_data.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = area_data.xml; sourceTree = "<group>"; };
+		18B6882A1E31F8880090579B /* JKAddressList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddressList.h; sourceTree = "<group>"; };
+		18B6882B1E31F8880090579B /* JKAddressList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddressList.m; sourceTree = "<group>"; };
+		18B6882C1E31F8880090579B /* JKAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAddressPickerView.h; sourceTree = "<group>"; };
+		18B6882D1E31F8880090579B /* JKAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAddressPickerView.m; sourceTree = "<group>"; };
+		18B6882E1E31F8880090579B /* JKAnalyzingXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKAnalyzingXml.h; sourceTree = "<group>"; };
+		18B6882F1E31F8880090579B /* JKAnalyzingXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKAnalyzingXml.m; sourceTree = "<group>"; };
+		18B688311E31F8880090579B /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		18B688321E31F8880090579B /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		18B688331E31F8880090579B /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		18B688341E31F8880090579B /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		18B688351E31F8880090579B /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		18B688361E31F8880090579B /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		18B688371E31F8880090579B /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		18B688381E31F8880090579B /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		18B688391E31F8880090579B /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		18B6883A1E31F8880090579B /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		18B6883B1E31F8880090579B /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		18B6883C1E31F8880090579B /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		18B6883D1E31F8880090579B /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		18B6883E1E31F8880090579B /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		18B6883F1E31F8880090579B /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		18B688401E31F8880090579B /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		18B688411E31F8880090579B /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		18B688421E31F8880090579B /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		18B688431E31F8880090579B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		18B688441E31F8880090579B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		18B688451E31F8880090579B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +143,8 @@
 		18B687F41E31F8420090579B /* JKXMLParser */ = {
 			isa = PBXGroup;
 			children = (
+				18B688281E31F8880090579B /* JKAddressPickerView */,
+				18B688301E31F8880090579B /* MJExtension */,
 				18B687F81E31F8420090579B /* AppDelegate.h */,
 				18B687F91E31F8420090579B /* AppDelegate.m */,
 				18B687FB1E31F8430090579B /* ViewController.h */,
@@ -138,6 +182,48 @@
 				18B6881C1E31F8430090579B /* Info.plist */,
 			);
 			path = JKXMLParserUITests;
+			sourceTree = "<group>";
+		};
+		18B688281E31F8880090579B /* JKAddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				18B688291E31F8880090579B /* area_data.xml */,
+				18B6882A1E31F8880090579B /* JKAddressList.h */,
+				18B6882B1E31F8880090579B /* JKAddressList.m */,
+				18B6882C1E31F8880090579B /* JKAddressPickerView.h */,
+				18B6882D1E31F8880090579B /* JKAddressPickerView.m */,
+				18B6882E1E31F8880090579B /* JKAnalyzingXml.h */,
+				18B6882F1E31F8880090579B /* JKAnalyzingXml.m */,
+			);
+			path = JKAddressPickerView;
+			sourceTree = "<group>";
+		};
+		18B688301E31F8880090579B /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18B688311E31F8880090579B /* MJExtension.h */,
+				18B688321E31F8880090579B /* MJExtensionConst.h */,
+				18B688331E31F8880090579B /* MJExtensionConst.m */,
+				18B688341E31F8880090579B /* MJFoundation.h */,
+				18B688351E31F8880090579B /* MJFoundation.m */,
+				18B688361E31F8880090579B /* MJProperty.h */,
+				18B688371E31F8880090579B /* MJProperty.m */,
+				18B688381E31F8880090579B /* MJPropertyKey.h */,
+				18B688391E31F8880090579B /* MJPropertyKey.m */,
+				18B6883A1E31F8880090579B /* MJPropertyType.h */,
+				18B6883B1E31F8880090579B /* MJPropertyType.m */,
+				18B6883C1E31F8880090579B /* NSObject+MJClass.h */,
+				18B6883D1E31F8880090579B /* NSObject+MJClass.m */,
+				18B6883E1E31F8880090579B /* NSObject+MJCoding.h */,
+				18B6883F1E31F8880090579B /* NSObject+MJCoding.m */,
+				18B688401E31F8880090579B /* NSObject+MJKeyValue.h */,
+				18B688411E31F8880090579B /* NSObject+MJKeyValue.m */,
+				18B688421E31F8880090579B /* NSObject+MJProperty.h */,
+				18B688431E31F8880090579B /* NSObject+MJProperty.m */,
+				18B688441E31F8880090579B /* NSString+MJExtension.h */,
+				18B688451E31F8880090579B /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +337,7 @@
 			files = (
 				18B688051E31F8430090579B /* LaunchScreen.storyboard in Resources */,
 				18B688021E31F8430090579B /* Assets.xcassets in Resources */,
+				18B688461E31F8880090579B /* area_data.xml in Resources */,
 				18B688001E31F8430090579B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,8 +364,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B687FD1E31F8430090579B /* ViewController.m in Sources */,
+				18B688481E31F8880090579B /* JKAddressPickerView.m in Sources */,
+				18B6884A1E31F8880090579B /* MJExtensionConst.m in Sources */,
+				18B688471E31F8880090579B /* JKAddressList.m in Sources */,
+				18B6884C1E31F8880090579B /* MJProperty.m in Sources */,
+				18B6884E1E31F8880090579B /* MJPropertyType.m in Sources */,
 				18B687FA1E31F8420090579B /* AppDelegate.m in Sources */,
+				18B688521E31F8880090579B /* NSObject+MJProperty.m in Sources */,
+				18B688531E31F8880090579B /* NSString+MJExtension.m in Sources */,
+				18B688501E31F8880090579B /* NSObject+MJCoding.m in Sources */,
+				18B688491E31F8880090579B /* JKAnalyzingXml.m in Sources */,
+				18B6884D1E31F8880090579B /* MJPropertyKey.m in Sources */,
+				18B688511E31F8880090579B /* NSObject+MJKeyValue.m in Sources */,
+				18B6884F1E31F8880090579B /* NSObject+MJClass.m in Sources */,
 				18B687F71E31F8420090579B /* main.m in Sources */,
+				18B6884B1E31F8880090579B /* MJFoundation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
 				INFOPLIST_FILE = JKXMLParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guo.JKXMLParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
 				INFOPLIST_FILE = JKXMLParser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = guo.JKXMLParser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
