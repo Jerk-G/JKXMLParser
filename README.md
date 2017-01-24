@@ -6,13 +6,13 @@
 ## 用法
 
 在需要用到控制器里导入主头文件：`#import "JKAddressPickerView.h"`
-由于这里用到模型，需要解析，所以用了`MJExtension`到时候直接把`MJExtension、JKAddressPickerView`这两个问价导入项目中即可
+由于这里用到模型，需要解析，所以用了`MJExtension`到时候直接把`MJExtension、JKAddressPickerView`这两个文件导入项目中即可
 代码如下：
 
 ```Objective-C
 // 加载地区选择器
 
-JKAddressPickerView *areaView = [[JKAddressPickerView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - 215, self.view.frame.size.width, 215)];
+JKAddressPickerView *areaView = [[JKAddressPickerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 215, self.view.frame.size.width, 215)];
     
 areaView.delegate = self;
     
