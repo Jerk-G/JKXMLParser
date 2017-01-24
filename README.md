@@ -10,13 +10,13 @@
 ####代码如下：
 
 ```Objective-C
->>// 加载地区选择器
+// 加载地区选择器
 
->>JKAddressPickerView *areaView = [[JKAddressPickerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 215, self.view.frame.size.width, 215)];
+JKAddressPickerView *areaView = [[JKAddressPickerView alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 215, self.view.frame.size.width, 215)];
     
->>areaView.delegate = self;
+areaView.delegate = self;
     
->>[self.view addSubview:areaView];
+[self.view addSubview:areaView];
 ```
 ####实现代理方式
 ```Objective-C
