@@ -64,6 +64,7 @@
     
     NSLog(@"%@%@%@" ,province, city, area);
     
+    // 显示选择的地区
     self.label.text = [NSString stringWithFormat:@"%@-%@-%@" ,province, city, area];
 }
 
