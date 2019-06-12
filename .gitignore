@@ -26,4 +26,3 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 #CocoaPods
-Pods/AMap3DMap/MAMapKit.framework/MAMapKit
