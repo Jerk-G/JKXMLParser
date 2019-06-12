@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02BFA7AEA191A55BB114B6C5 /* libPods-JKXMLParserUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CC94CE78DF0D61077914EE2 /* libPods-JKXMLParserUITests.a */; };
 		18B687F71E31F8420090579B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B687F61E31F8420090579B /* main.m */; };
 		18B687FA1E31F8420090579B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B687F91E31F8420090579B /* AppDelegate.m */; };
 		18B687FD1E31F8430090579B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B687FC1E31F8430090579B /* ViewController.m */; };
@@ -29,7 +30,9 @@
 		18B688511E31F8880090579B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688411E31F8880090579B /* NSObject+MJKeyValue.m */; };
 		18B688521E31F8880090579B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688431E31F8880090579B /* NSObject+MJProperty.m */; };
 		18B688531E31F8880090579B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B688451E31F8880090579B /* NSString+MJExtension.m */; };
+		63821C0679B3A1BDBF147CA0 /* libPods-JKXMLParserTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFED63DA30D7AC0F8612899 /* libPods-JKXMLParserTests.a */; };
 		F651A2441F78EB75003F18F8 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F651A2431F78EB75003F18F8 /* FirstTableViewController.m */; };
+		FC1CDE4381CCF644172268D0 /* libPods-JKXMLParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C686E43452B09C38FBF77305 /* libPods-JKXMLParser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +97,17 @@
 		18B688431E31F8880090579B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
 		18B688441E31F8880090579B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
 		18B688451E31F8880090579B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		4B28F4636F00723F67B01C4C /* Pods-JKXMLParserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParserUITests.release.xcconfig"; path = "Target Support Files/Pods-JKXMLParserUITests/Pods-JKXMLParserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CFED63DA30D7AC0F8612899 /* libPods-JKXMLParserTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKXMLParserTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55134DD704901E02EB22A34D /* Pods-JKXMLParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParser.release.xcconfig"; path = "Target Support Files/Pods-JKXMLParser/Pods-JKXMLParser.release.xcconfig"; sourceTree = "<group>"; };
+		60DAF555C97231F45074DC8D /* Pods-JKXMLParserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParserTests.debug.xcconfig"; path = "Target Support Files/Pods-JKXMLParserTests/Pods-JKXMLParserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		782591E7208434B5F1040A07 /* Pods-JKXMLParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParser.debug.xcconfig"; path = "Target Support Files/Pods-JKXMLParser/Pods-JKXMLParser.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF8CD60050434311AC13D01 /* Pods-JKXMLParserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParserTests.release.xcconfig"; path = "Target Support Files/Pods-JKXMLParserTests/Pods-JKXMLParserTests.release.xcconfig"; sourceTree = "<group>"; };
+		9CC94CE78DF0D61077914EE2 /* libPods-JKXMLParserUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKXMLParserUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C686E43452B09C38FBF77305 /* libPods-JKXMLParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKXMLParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F651A2421F78EB75003F18F8 /* FirstTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		F651A2431F78EB75003F18F8 /* FirstTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		F8A5A96A7F9266226CAD42CD /* Pods-JKXMLParserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKXMLParserUITests.debug.xcconfig"; path = "Target Support Files/Pods-JKXMLParserUITests/Pods-JKXMLParserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1CDE4381CCF644172268D0 /* libPods-JKXMLParser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63821C0679B3A1BDBF147CA0 /* libPods-JKXMLParserTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BFA7AEA191A55BB114B6C5 /* libPods-JKXMLParserUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +145,8 @@
 				18B6880E1E31F8430090579B /* JKXMLParserTests */,
 				18B688191E31F8430090579B /* JKXMLParserUITests */,
 				18B687F31E31F8420090579B /* Products */,
+				C7207C98A3824A54DF4E0A03 /* Pods */,
+				22FB2D0F0D6E31A1B40E8015 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,6 +248,30 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		22FB2D0F0D6E31A1B40E8015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C686E43452B09C38FBF77305 /* libPods-JKXMLParser.a */,
+				4CFED63DA30D7AC0F8612899 /* libPods-JKXMLParserTests.a */,
+				9CC94CE78DF0D61077914EE2 /* libPods-JKXMLParserUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7207C98A3824A54DF4E0A03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782591E7208434B5F1040A07 /* Pods-JKXMLParser.debug.xcconfig */,
+				55134DD704901E02EB22A34D /* Pods-JKXMLParser.release.xcconfig */,
+				60DAF555C97231F45074DC8D /* Pods-JKXMLParserTests.debug.xcconfig */,
+				8EF8CD60050434311AC13D01 /* Pods-JKXMLParserTests.release.xcconfig */,
+				F8A5A96A7F9266226CAD42CD /* Pods-JKXMLParserUITests.debug.xcconfig */,
+				4B28F4636F00723F67B01C4C /* Pods-JKXMLParserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B6881F1E31F8430090579B /* Build configuration list for PBXNativeTarget "JKXMLParser" */;
 			buildPhases = (
+				3547833C8CA2B0BD554EC791 /* [CP] Check Pods Manifest.lock */,
 				18B687EE1E31F8420090579B /* Sources */,
 				18B687EF1E31F8420090579B /* Frameworks */,
 				18B687F01E31F8420090579B /* Resources */,
+				E6BE7D14EB81E795BDA05F21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B688221E31F8430090579B /* Build configuration list for PBXNativeTarget "JKXMLParserTests" */;
 			buildPhases = (
+				0DC78518A5A63CED8568CE44 /* [CP] Check Pods Manifest.lock */,
 				18B688071E31F8430090579B /* Sources */,
 				18B688081E31F8430090579B /* Frameworks */,
 				18B688091E31F8430090579B /* Resources */,
@@ -273,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18B688251E31F8430090579B /* Build configuration list for PBXNativeTarget "JKXMLParserUITests" */;
 			buildPhases = (
+				495F8890B4AE8C5EF90B0889 /* [CP] Check Pods Manifest.lock */,
 				18B688121E31F8430090579B /* Sources */,
 				18B688131E31F8430090579B /* Frameworks */,
 				18B688141E31F8430090579B /* Resources */,
@@ -362,6 +407,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DC78518A5A63CED8568CE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKXMLParserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3547833C8CA2B0BD554EC791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKXMLParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		495F8890B4AE8C5EF90B0889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKXMLParserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6BE7D14EB81E795BDA05F21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JKXMLParser/Pods-JKXMLParser-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JKXMLParser/Pods-JKXMLParser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18B687EE1E31F8420090579B /* Sources */ = {
@@ -529,6 +665,7 @@
 		};
 		18B688201E31F8430090579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782591E7208434B5F1040A07 /* Pods-JKXMLParser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
@@ -542,6 +679,7 @@
 		};
 		18B688211E31F8430090579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55134DD704901E02EB22A34D /* Pods-JKXMLParser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
@@ -555,6 +693,7 @@
 		};
 		18B688231E31F8430090579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60DAF555C97231F45074DC8D /* Pods-JKXMLParserTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
@@ -568,6 +707,7 @@
 		};
 		18B688241E31F8430090579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF8CD60050434311AC13D01 /* Pods-JKXMLParserTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
@@ -581,6 +721,7 @@
 		};
 		18B688261E31F8430090579B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A5A96A7F9266226CAD42CD /* Pods-JKXMLParserUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
 				INFOPLIST_FILE = JKXMLParserUITests/Info.plist;
@@ -593,6 +734,7 @@
 		};
 		18B688271E31F8430090579B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B28F4636F00723F67B01C4C /* Pods-JKXMLParserUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 5K9S6K56M3;
 				INFOPLIST_FILE = JKXMLParserUITests/Info.plist;
